@@ -55,6 +55,10 @@ body{
 	left:80px;
 	/*border:1px solid #000000;*/
 }
+.auth{
+	position:relative;
+	top:300px;
+}
 .menu{
 	width:547px;
 	height:700px;
@@ -105,7 +109,7 @@ p.neprosto{
 	width:480px;
 	height:65px;
 }
-input[name="input"]{
+#but{
 		background-color:  #693d72;
 		width: 199px;
 		height: 65px;
@@ -118,10 +122,10 @@ input[name="input"]{
 		text-align: center;
 		float:left;
 }
-input[name="input"]:hover{
-		background-color:  #373737;
+#but:hover{
+	background-color:  #373737;
 }
-input[name="ik_am"]{
+#txt{
 		background-color:  #e8e8e8;
 		width: 262px;
 		height: 64px;
@@ -135,6 +139,7 @@ input[name="ik_am"]{
 		float:left;
 		text-decoration: none;
 }
+
 .depositText{
 	position:relative;
 	top:70px;	
